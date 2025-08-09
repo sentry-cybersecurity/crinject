@@ -24,10 +24,10 @@ CRInject employs a multi-phase approach to identify role injection vulnerabiliti
 - `user` - Standard user messages
 
 #### Extended Roles (Fuzzing)
-- `admin`, `root`, `superuser` - Administrative contexts
-- `tool`, `function`, `function_call` - Function execution
-- `moderator`, `reviewer` - Moderation bypass
-- `debug`, `test`, `internal` - Hidden functionalities
+- `admin`, `root`, `superuser`
+- `tool`, `function`, `function_call`
+- `moderator`, `reviewer`
+- `debug`, `test`, `internal`
 - Custom roles discovered through intelligent fuzzing
 
 ## Installation
@@ -162,7 +162,7 @@ Dynamic role generation based on:
 Some APIs may:
 - Silently strip role fields
 - Default to 'user' regardless of input
-- Use different parameter names (e.g., 'speaker', 'author')
+- Use different and custom parameter names (e.g., 'speaker', 'author')
 
 ## License and Legal
 
